@@ -1,0 +1,27 @@
+.layout-main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    padding: 7rem 2rem 2rem 4rem;
+    transition: margin-left $transitionDuration;
+}
+
+.layout-main {
+    flex: 1 1 auto;
+}
+
+div[class*="/login_page"] .layout-main {
+    display: flex;
+    justify-content: center;
+}
+
+div[class*="/login_page"] .login_page_wrapper {
+    width: 80%;
+}
+
+.login_page_img {
+    width: 120px;
+    height: 100px;
+    background: white;
+}
